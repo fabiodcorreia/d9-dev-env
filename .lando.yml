@@ -1,0 +1,7 @@
+name: d9-dev-env
+recipe: drupal9
+config:
+  webroot: web
+  via: nginx
+  database: mariadb
+  php: 8.1

@@ -1,0 +1,89 @@
+# Ignore Composer Vender
+/vendor/
+
+# Ingore Env Files
+.env
+
+# Ignore testing related files
+/web/sites/simpletest
+
+# Ignore core
+/web/core
+
+# Ignore contrib modules and themes
+/web/modules/contrib
+/web/themes/contrib
+
+# Ignore README, LICENSE and INSTALL files
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/themes/README.txt
+/web/sites/README.txt
+/web/README.md
+/web/LICENSE.txt
+/web/INSTALL.txt
+
+# Ignore Drupal dev settings files
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/example.gitignore
+
+# Ignore Apache and IIS Server settings files
+/web/web.config
+/web/.htaccess
+
+# Ignore Drupal root files
+/web/update.php
+/web/robots.txt
+/web/index.php
+/web/autoload.php
+/web/.ht.router.php
+
+# Ignore paths that may contain temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/files
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/default.services.yml
+/web/sites/*/default.settings.php
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+
+
+# Ignore MacOS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ingore Linux Files
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
