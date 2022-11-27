@@ -87,3 +87,11 @@ Temporary Items
 .Trash-*
 .nfs*
 
+
+# Ignore site installation settings
+site-install.txt
+
+# Ignore custom modules and themes
+# Each theme and module will have a proper repo
+/web/modules/custom
+/web/themes/custom
