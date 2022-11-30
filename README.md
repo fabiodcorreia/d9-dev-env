@@ -1,6 +1,8 @@
 # Drupal 9 Development Environment
 
-This is a lando env with a naked installation of Drupal 9
+This is a lando env with a naked installation of Drupal 9 with configurations ready for development.
+
+It can be used to develop themes or modules.
 
 ## First Run
 
@@ -53,6 +55,12 @@ Stops the app and lando containers
 ## Add Modules and Themes
 
 Just clone the repo to `web/themes/custom/` or `web/modules/custom` depending if it's a theme or modules
+
+### Generate a new theme
+
+If we want to use the starter kit from Drupal
+
+`lando php web/core/scripts/drupal generate-theme --name "Website Theme" --path themes/custom website_theme`
 
 ## Purge all the containers, volumes, images and clean lando's cache
 
